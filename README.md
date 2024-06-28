@@ -1,11 +1,25 @@
-This is the Final Project for ETH Beginner Course where we need to create the contract by fulfilling all the given requiremets:-
-    1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    3. You will have a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount.
-    4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
-       It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-       and from the balance of the “sender”.
-    5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
-       to the amount that is supposed to be burned.
+# Create a Token
+
+'META' token smart contract for transactions
+
+## Description
+
+The aim of this contract is to manage the "META" token, abbreviated as "MTA." It oversees the minting and burning processes, enabling the creation and management of tokens. The contract monitors the total token supply, as well as the addresses and their corresponding token balances. Users can mint new tokens to boost their balance and the overall supply, provided they have enough tokens to burn, or they can burn tokens to reduce both their balance and the total supply.
+
+## Executing program
+
+* Copy the code and paste it on remix.etherum.org
+* Make sure it is compatible with the current version of the compiler
+* Compile the code (or press 'ctrl + S' for compilation)
+* Deploy the contract (Compile and Deploy options are on the left side of the screen)
+* Use the deployed contract as per your wish.
+
+## Help
+
+Make sure the contract is compatible with the current version of your compiler. (>=0.8.7 is common)
+
+## Author
+
+Subham Bisht  
+email: subhambisht8946@gmail.com
+
